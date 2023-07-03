@@ -24,7 +24,7 @@ public class MCTest1 {
                         "e sei eine Variable mit einem einfachen binären Suchbaum (nicht AVL-Baum)\n" +                 //        \
                         "ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:\n" +                               //         (6)      => parent of (5)
                         "    STree e = new STree(); e.add(0); e.add(6); e.add(5);\n" +                                  //         /
-                        "Welche der folgenden Aussagen treffen auf e zu?",                                              //       (5)        => leafnode
+                        "Welche der folgenden Aussagen treffen auf e zu?",                                              //       (5)        => leaf-node
 
                         new Choice(false, "Der Knoten mit Wert 6 ist die Wurzel.                                         (2A)"),
                         new Choice(true, "Der Knoten mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)"),
