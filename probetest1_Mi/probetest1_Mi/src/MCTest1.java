@@ -20,7 +20,7 @@ public class MCTest1 {
                         new Choice(true, "Der Wert von 'this' kann nicht 'null' sein.                                   (1E)")
                 ),
 
-                new Question(                                                                                           //      (0)         => root
+                new Question(                                                                                           //      (0)         => root 1
                         "e sei eine Variable mit einem einfachen binären Suchbaum (nicht AVL-Baum)\n" +                 //        \
                         "ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:\n" +                               //         (6)      => parent of (5)
                         "    STree e = new STree(); e.add(0); e.add(6); e.add(5);\n" +                                  //         /

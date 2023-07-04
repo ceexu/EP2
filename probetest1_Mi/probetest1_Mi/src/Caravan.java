@@ -26,8 +26,6 @@ public class Caravan /* singly linked list */ {
 
         // TODO: implement method. - [DONE]
 
-        // Liste leer oder Einträge schon vorhanden?
-
         if (head == null) {
             head = new ListNode(camel, null);
         } else {
